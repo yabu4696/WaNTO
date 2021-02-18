@@ -86,7 +86,7 @@ if __name__ == '__main__':
     driver.get("https://google.com")
     search(driver)
 
-    except_file = './except._list.txt'
+    except_file = './except_list.txt'
     page_range = 3
 
     url_list,except_url_list = get_url(driver,page_range,except_file)
